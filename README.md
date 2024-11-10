@@ -1,0 +1,2 @@
+# repo-hobopy
+ほぼpythonでサーバーレスアプリをつくるのCICD用
