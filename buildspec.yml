@@ -9,9 +9,7 @@ phases:
       ${APP_S3_BUCKET} --output-template-file transformed.yaml
   install:
     commands:
-    - curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py  
-    - python get-pip.py 
-    - sudo pip install --upgrade awscli
+    - pip install --upgrade awscli
     - aws --version
     - pip install 'chalice>=1.31.0,<1.32.0'
     - pip install -r requirements.txt
