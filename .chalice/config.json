@@ -10,7 +10,6 @@
       }
     },
     "prod": {
-      "api_gateway_stage": "prod",
       "autogen_policy": false,
       "environment_variables": {
         "DB_TABLE_NAME": "Todos"
