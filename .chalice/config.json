@@ -5,6 +5,7 @@
   "stages": {
     "dev": {
       "environment_variables": {
+        "DB_ENDPOINT": "http://127.0.0.1:8001",
         "DB_TABLE_NAME": "Todos"
       }
     },
